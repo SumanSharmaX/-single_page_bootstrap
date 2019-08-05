@@ -1,0 +1,171 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.masthead {
+  height: 650px;
+}
+.mainheader {
+  background-image: url("/Images/banner-back.jpg");
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.nav-item button {
+  border: 1px solid #f37913;
+  width: 200px;
+  font-weight: 600;
+  color: #f37913;
+  margin-left: 20px;
+}
+.nav-item a {
+  color: black;
+  font-size: 14px;
+  font-weight: 14px;
+}
+.text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  line-height: 110%;
+}
+.subtext {
+  height: 100vh;
+  color: #f37913;
+}
+.bannerimg {
+  position: absolute;
+  top: 20%;
+}
+.nav-item a:hover {
+  text-decoration-line: underline;
+}
+.text-2 {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.row button {
+  color: black;
+  font-size: 14px;
+  font-weight: 14px;
+}
+.subtext-2 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 110%;
+}
+.socialbutton {
+  margin: 10px;
+  width: 200px;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+}
+.contact {
+  background: black;
+  text-align: center;
+  padding: 6%;
+}
+.contact-content {
+  color: white;
+}
+.info-left {
+  margin: 20px 20px 20px 20px;
+}
+.boundry {
+  padding-top: 80px;
+}
+.list {
+  margin-top: 40px;
+}
+.text1 {
+  text-transform: uppercase;
+  color: #d6d6d6;
+  margin-top: 20px;
+}
+.liststart i {
+  font-size: 22px;
+  margin-right: 10px;
+  color: #f37913;
+}
+.rightPart {
+  padding-top: 130px;
+}
+.mainfooter {
+  background-color: #f37913;
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+}
+.socialicons {
+  display: inline;
+  margin: 40px;
+  color: white;
+}
+.footer-2 {
+  margin: 10px;
+  color: white;
+  list-style: none;
+}
+.footer-3 {
+  margin: 10px;
+  color: white;
+  margin: 20px;
+}
+.leftform {
+  padding: 7%;
+}
+.leftform-header-text {
+  font-size: 30px;
+  font-weight: 700;
+}
+.rightbarbutton {
+  background-color: #f37913;
+  color: #f37913;
+}
+.rightform {
+  padding: 2%;
+  margin-top: 3%;
+}
+.card {
+  padding: 3%;
+  box-shadow: 1px 2px 6px 1px gray;
+  margin-bottom: 5%;
+}
+.socialbutton-text {
+  font-size: 10px;
+  font-weight: 400;
+  color: lightgrey;
+}
+.smallnavbar {
+  display: flex;
+}
+.nav-item button {
+  margin-left: 5;
+}
+
+@media (max-width: 767.98px) {
+  .bannerimg {
+    top: 50%;
+  }
+  .text {
+    left: 0%;
+  }
+  .rightPart {
+    padding-top: 20px;
+  }
+  .navlogo {
+    width: 30%;
+  }
+  .collapse-button {
+    float: right;
+  }
+  .nav-item button {
+    margin-left: 0;
+    width: 120;
+  }
+  body {
+    font-size: 60%;
+  }
+}
